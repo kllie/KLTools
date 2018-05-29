@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9121E5D220B796E000C08690 /* KLStarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9121E5D120B796E000C08690 /* KLStarView.m */; };
+		9121E60420BD909200C08690 /* UIView+KLFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 9121E60320BD909200C08690 /* UIView+KLFrame.m */; };
 		917A1E4520AF36FA004E97FE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 917A1E4420AF36FA004E97FE /* AppDelegate.m */; };
 		917A1E4820AF36FA004E97FE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 917A1E4720AF36FA004E97FE /* ViewController.m */; };
 		917A1E4B20AF36FA004E97FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 917A1E4920AF36FA004E97FE /* Main.storyboard */; };
@@ -22,6 +24,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9121E5D020B796E000C08690 /* KLStarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLStarView.h; sourceTree = "<group>"; };
+		9121E5D120B796E000C08690 /* KLStarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLStarView.m; sourceTree = "<group>"; };
+		9121E60220BD909200C08690 /* UIView+KLFrame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+KLFrame.h"; sourceTree = "<group>"; };
+		9121E60320BD909200C08690 /* UIView+KLFrame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+KLFrame.m"; sourceTree = "<group>"; };
 		917A1E4020AF36FA004E97FE /* KLTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KLTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		917A1E4320AF36FA004E97FE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		917A1E4420AF36FA004E97FE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -58,6 +64,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9121E5CF20B796E000C08690 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9121E5D020B796E000C08690 /* KLStarView.h */,
+				9121E5D120B796E000C08690 /* KLStarView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		917A1E3720AF36FA004E97FE = {
 			isa = PBXGroup;
 			children = (
@@ -96,6 +111,7 @@
 			children = (
 				917A1E6720AF3718004E97FE /* KLTools.h */,
 				917A1E5A20AF3718004E97FE /* Category */,
+				9121E5CF20B796E000C08690 /* View */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -105,6 +121,8 @@
 			children = (
 				917A1E5B20AF3718004E97FE /* UIView+KLExtend.h */,
 				917A1E6320AF3718004E97FE /* UIView+KLExtend.m */,
+				9121E60220BD909200C08690 /* UIView+KLFrame.h */,
+				9121E60320BD909200C08690 /* UIView+KLFrame.m */,
 				917A1E5F20AF3718004E97FE /* UILabel+KLExtend.h */,
 				917A1E6520AF3718004E97FE /* UILabel+KLExtend.m */,
 				917A1E5D20AF3718004E97FE /* UIButton+KLExtend.h */,
@@ -194,10 +212,12 @@
 				917A1E6920AF3718004E97FE /* UITextField+KLExtend.m in Sources */,
 				917A1E6D20AF3718004E97FE /* UIImage+KLExtend.m in Sources */,
 				917A1E4820AF36FA004E97FE /* ViewController.m in Sources */,
+				9121E60420BD909200C08690 /* UIView+KLFrame.m in Sources */,
 				917A1E5320AF36FB004E97FE /* main.m in Sources */,
 				917A1E6C20AF3718004E97FE /* UILabel+KLExtend.m in Sources */,
 				917A1E6B20AF3718004E97FE /* UIView+KLExtend.m in Sources */,
 				917A1E4520AF36FA004E97FE /* AppDelegate.m in Sources */,
+				9121E5D220B796E000C08690 /* KLStarView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
+#import "UIView+KLFrame.h"
 #import "UILabel+KLExtend.h"
 #import "UIButton+KLExtend.h"
 #import "UITextField+KLExtend.h"
@@ -60,5 +61,7 @@
  Set view frame size height
  */
 - (UIView *(^)(CGFloat))setHeight;
+
+
 
 @end
