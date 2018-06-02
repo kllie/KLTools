@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
 
   s.name         = "KLTools"
 
-  s.version      = "0.0.5"
+  s.version      = "0.1.0"
 
   s.summary      = "This is a tools."
 
@@ -29,11 +29,5 @@ Pod::Spec.new do |s|
     category.public_header_files   = 'KLTools/Classes/Category/**/*.h'
     category.source_files          = 'KLTools/Classes/Category/**/*'
   end
-
-  s.subspec 'View' do |view|
-    view.public_header_files   	   = 'KLTools/Classes/View/**/*.h'
-    view.source_files              = 'KLTools/Classes/View/**/*'
-  end
-
 
 end
