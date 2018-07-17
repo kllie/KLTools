@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		9121E60420BD909200C08690 /* UIView+KLFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 9121E60320BD909200C08690 /* UIView+KLFrame.m */; };
+		915226F220FE32C8003FD314 /* KLResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 915226F120FE32C8003FD314 /* KLResource.bundle */; };
+		915226F920FE3411003FD314 /* UINavigationBar+KLTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 915226F320FE3410003FD314 /* UINavigationBar+KLTransition.m */; };
+		915226FA20FE3411003FD314 /* UIViewController+KLTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 915226F520FE3411003FD314 /* UIViewController+KLTransition.m */; };
+		915226FB20FE3411003FD314 /* UINavigationController+KLTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 915226F820FE3411003FD314 /* UINavigationController+KLTransition.m */; };
 		917A1E4520AF36FA004E97FE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 917A1E4420AF36FA004E97FE /* AppDelegate.m */; };
 		917A1E4820AF36FA004E97FE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 917A1E4720AF36FA004E97FE /* ViewController.m */; };
 		917A1E4B20AF36FA004E97FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 917A1E4920AF36FA004E97FE /* Main.storyboard */; };
@@ -20,11 +24,22 @@
 		917A1E6B20AF3718004E97FE /* UIView+KLExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 917A1E6320AF3718004E97FE /* UIView+KLExtend.m */; };
 		917A1E6C20AF3718004E97FE /* UILabel+KLExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 917A1E6520AF3718004E97FE /* UILabel+KLExtend.m */; };
 		917A1E6D20AF3718004E97FE /* UIImage+KLExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 917A1E6620AF3718004E97FE /* UIImage+KLExtend.m */; };
+		919EA37A20DB4965000C4730 /* NSString+KLExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 919EA37920DB4965000C4730 /* NSString+KLExtend.m */; };
+		91C2673D20D413D100ED5484 /* KLFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C2673C20D413D100ED5484 /* KLFunction.m */; };
+		91CD689520F351C4004BDAB2 /* KLIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 91CD689120F351C4004BDAB2 /* KLIndicatorView.m */; };
+		91CD689620F351C4004BDAB2 /* KLIndexView.m in Sources */ = {isa = PBXBuildFile; fileRef = 91CD689220F351C4004BDAB2 /* KLIndexView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9121E60220BD909200C08690 /* UIView+KLFrame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+KLFrame.h"; sourceTree = "<group>"; };
 		9121E60320BD909200C08690 /* UIView+KLFrame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+KLFrame.m"; sourceTree = "<group>"; };
+		915226F120FE32C8003FD314 /* KLResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = KLResource.bundle; sourceTree = "<group>"; };
+		915226F320FE3410003FD314 /* UINavigationBar+KLTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+KLTransition.m"; sourceTree = "<group>"; };
+		915226F420FE3410003FD314 /* UIViewController+KLTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+KLTransition.h"; sourceTree = "<group>"; };
+		915226F520FE3411003FD314 /* UIViewController+KLTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+KLTransition.m"; sourceTree = "<group>"; };
+		915226F620FE3411003FD314 /* UINavigationBar+KLTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+KLTransition.h"; sourceTree = "<group>"; };
+		915226F720FE3411003FD314 /* UINavigationController+KLTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+KLTransition.h"; sourceTree = "<group>"; };
+		915226F820FE3411003FD314 /* UINavigationController+KLTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+KLTransition.m"; sourceTree = "<group>"; };
 		917A1E4020AF36FA004E97FE /* KLTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KLTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		917A1E4320AF36FA004E97FE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		917A1E4420AF36FA004E97FE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -48,6 +63,14 @@
 		917A1E6520AF3718004E97FE /* UILabel+KLExtend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+KLExtend.m"; sourceTree = "<group>"; };
 		917A1E6620AF3718004E97FE /* UIImage+KLExtend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+KLExtend.m"; sourceTree = "<group>"; };
 		917A1E6720AF3718004E97FE /* KLTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLTools.h; sourceTree = "<group>"; };
+		919EA37820DB4965000C4730 /* NSString+KLExtend.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+KLExtend.h"; sourceTree = "<group>"; };
+		919EA37920DB4965000C4730 /* NSString+KLExtend.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+KLExtend.m"; sourceTree = "<group>"; };
+		91C2673B20D413D100ED5484 /* KLFunction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KLFunction.h; sourceTree = "<group>"; };
+		91C2673C20D413D100ED5484 /* KLFunction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KLFunction.m; sourceTree = "<group>"; };
+		91CD689120F351C4004BDAB2 /* KLIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLIndicatorView.m; sourceTree = "<group>"; };
+		91CD689220F351C4004BDAB2 /* KLIndexView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLIndexView.m; sourceTree = "<group>"; };
+		91CD689320F351C4004BDAB2 /* KLIndexView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLIndexView.h; sourceTree = "<group>"; };
+		91CD689420F351C4004BDAB2 /* KLIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLIndicatorView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +121,10 @@
 			isa = PBXGroup;
 			children = (
 				917A1E6720AF3718004E97FE /* KLTools.h */,
+				91C2673A20D413B100ED5484 /* Function */,
 				917A1E5A20AF3718004E97FE /* Category */,
+				91CD688F20F351C4004BDAB2 /* Views */,
+				915226F120FE32C8003FD314 /* KLResource.bundle */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -120,8 +146,44 @@
 				917A1E5C20AF3718004E97FE /* UIColor+KLExtend.m */,
 				917A1E6020AF3718004E97FE /* UIImage+KLExtend.h */,
 				917A1E6620AF3718004E97FE /* UIImage+KLExtend.m */,
+				919EA37820DB4965000C4730 /* NSString+KLExtend.h */,
+				919EA37920DB4965000C4730 /* NSString+KLExtend.m */,
+				915226F620FE3411003FD314 /* UINavigationBar+KLTransition.h */,
+				915226F320FE3410003FD314 /* UINavigationBar+KLTransition.m */,
+				915226F720FE3411003FD314 /* UINavigationController+KLTransition.h */,
+				915226F820FE3411003FD314 /* UINavigationController+KLTransition.m */,
+				915226F420FE3410003FD314 /* UIViewController+KLTransition.h */,
+				915226F520FE3411003FD314 /* UIViewController+KLTransition.m */,
 			);
 			path = Category;
+			sourceTree = "<group>";
+		};
+		91C2673A20D413B100ED5484 /* Function */ = {
+			isa = PBXGroup;
+			children = (
+				91C2673B20D413D100ED5484 /* KLFunction.h */,
+				91C2673C20D413D100ED5484 /* KLFunction.m */,
+			);
+			path = Function;
+			sourceTree = "<group>";
+		};
+		91CD688F20F351C4004BDAB2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				91CD689020F351C4004BDAB2 /* IndexView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		91CD689020F351C4004BDAB2 /* IndexView */ = {
+			isa = PBXGroup;
+			children = (
+				91CD689320F351C4004BDAB2 /* KLIndexView.h */,
+				91CD689220F351C4004BDAB2 /* KLIndexView.m */,
+				91CD689420F351C4004BDAB2 /* KLIndicatorView.h */,
+				91CD689120F351C4004BDAB2 /* KLIndicatorView.m */,
+			);
+			path = IndexView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,6 +243,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				915226F220FE32C8003FD314 /* KLResource.bundle in Resources */,
 				917A1E5020AF36FB004E97FE /* LaunchScreen.storyboard in Resources */,
 				917A1E4D20AF36FB004E97FE /* Assets.xcassets in Resources */,
 				917A1E4B20AF36FA004E97FE /* Main.storyboard in Resources */,
@@ -198,12 +261,19 @@
 				917A1E6820AF3718004E97FE /* UIColor+KLExtend.m in Sources */,
 				917A1E6920AF3718004E97FE /* UITextField+KLExtend.m in Sources */,
 				917A1E6D20AF3718004E97FE /* UIImage+KLExtend.m in Sources */,
+				919EA37A20DB4965000C4730 /* NSString+KLExtend.m in Sources */,
+				91CD689620F351C4004BDAB2 /* KLIndexView.m in Sources */,
+				915226FB20FE3411003FD314 /* UINavigationController+KLTransition.m in Sources */,
 				917A1E4820AF36FA004E97FE /* ViewController.m in Sources */,
 				9121E60420BD909200C08690 /* UIView+KLFrame.m in Sources */,
+				91CD689520F351C4004BDAB2 /* KLIndicatorView.m in Sources */,
 				917A1E5320AF36FB004E97FE /* main.m in Sources */,
 				917A1E6C20AF3718004E97FE /* UILabel+KLExtend.m in Sources */,
+				915226FA20FE3411003FD314 /* UIViewController+KLTransition.m in Sources */,
 				917A1E6B20AF3718004E97FE /* UIView+KLExtend.m in Sources */,
 				917A1E4520AF36FA004E97FE /* AppDelegate.m in Sources */,
+				915226F920FE3411003FD314 /* UINavigationBar+KLTransition.m in Sources */,
+				91C2673D20D413D100ED5484 /* KLFunction.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

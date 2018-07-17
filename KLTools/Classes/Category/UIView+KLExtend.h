@@ -14,6 +14,7 @@
 #import "UITextField+KLExtend.h"
 #import "UIColor+KLExtend.h"
 #import "UIImage+KLExtend.h"
+#import "NSString+KLExtend.h"
 
 @interface UIView (KLExtend)
 
