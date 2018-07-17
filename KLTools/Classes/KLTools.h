@@ -27,8 +27,6 @@
 #ifdef __OBJC__
 
 #import "UIView+KLExtend.h"
-#import "KLFunction.h"
-#import "KLIndexView.h"
 
 #endif
 
