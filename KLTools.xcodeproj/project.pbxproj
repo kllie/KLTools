@@ -148,12 +148,6 @@
 				917A1E6620AF3718004E97FE /* UIImage+KLExtend.m */,
 				919EA37820DB4965000C4730 /* NSString+KLExtend.h */,
 				919EA37920DB4965000C4730 /* NSString+KLExtend.m */,
-				915226F620FE3411003FD314 /* UINavigationBar+KLTransition.h */,
-				915226F320FE3410003FD314 /* UINavigationBar+KLTransition.m */,
-				915226F720FE3411003FD314 /* UINavigationController+KLTransition.h */,
-				915226F820FE3411003FD314 /* UINavigationController+KLTransition.m */,
-				915226F420FE3410003FD314 /* UIViewController+KLTransition.h */,
-				915226F520FE3411003FD314 /* UIViewController+KLTransition.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -163,6 +157,12 @@
 			children = (
 				91C2673B20D413D100ED5484 /* KLFunction.h */,
 				91C2673C20D413D100ED5484 /* KLFunction.m */,
+				915226F620FE3411003FD314 /* UINavigationBar+KLTransition.h */,
+				915226F320FE3410003FD314 /* UINavigationBar+KLTransition.m */,
+				915226F720FE3411003FD314 /* UINavigationController+KLTransition.h */,
+				915226F820FE3411003FD314 /* UINavigationController+KLTransition.m */,
+				915226F420FE3410003FD314 /* UIViewController+KLTransition.h */,
+				915226F520FE3411003FD314 /* UIViewController+KLTransition.m */,
 			);
 			path = Function;
 			sourceTree = "<group>";
