@@ -29,6 +29,11 @@
 - (UIView *(^)(UIColor *))setBackgroundColor;
 
 /**
+ Set view background image
+ */
+- (UIView *(^)(UIImage *))setBackgroundImage;
+
+/**
  Set view radius
  */
 - (UIView *(^)(CGFloat))setRadius;

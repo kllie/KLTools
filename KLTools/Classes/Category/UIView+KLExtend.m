@@ -29,6 +29,14 @@
     };
 }
 
+- (UIView *(^)(UIImage *))setBackgroundImage {
+    return ^id(UIImage *image) {
+        self.layer.contents = (id)image.CGImage;
+        
+        return self;
+    };
+}
+
 - (UIView *(^)(CGFloat))setRadius {
     return ^id(CGFloat radius) {
         self.layer.masksToBounds = YES;
