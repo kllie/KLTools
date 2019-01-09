@@ -11,6 +11,10 @@
 @implementation UIColor (KLExtend)
 
 + (UIColor *)colorWithHexRGB:(NSString *)hex {
+    return [self colorWithHexRGB:hex alpha:1.0];
+}
+
++ (UIColor *)colorWithHexRGB:(NSString *)hex alpha:(float)alpha {
     UIColor *result = nil;
     unsigned int colorCode = 0;
     unsigned char redByte, greenByte, blueByte;
@@ -26,7 +30,7 @@
               colorWithRed: (float)redByte / 0xff
               green: (float)greenByte/ 0xff
               blue: (float)blueByte / 0xff
-              alpha:1.0];
+              alpha:alpha];
     return result;
 }
 

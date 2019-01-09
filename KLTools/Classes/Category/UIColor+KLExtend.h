@@ -17,6 +17,8 @@
  */
 + (UIColor *)colorWithHexRGB:(NSString *)hex;
 
++ (UIColor *)colorWithHexRGB:(NSString *)hex alpha:(float)alpha;
+
 #pragma mark - 生成Image
 
 - (UIImage *)imageWithColor;
